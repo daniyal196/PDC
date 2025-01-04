@@ -1,4 +1,4 @@
-from mpi4py import MPI
+from mpi4py import MPI # type: ignore
 import time
 
 comm = MPI.COMM_WORLD 
